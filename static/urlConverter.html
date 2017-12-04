@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang=en>
+    <head>
+        <meta charset=utf-8>
+        <title>Apple to Spotify URL Converter</title>
+        <link rel="stylesheet" type="text/css" href="urlConverter.css">
+        <script src="urlConverter.js" ></script>
+    </head>
+    <body>
+        <form id="searchForm">
+            <div style="margin-bottom: 4px">
+                <label for="track">Track name:</label>
+                <input type="text" id="track" name="track" style="width:169px">
+                <label for="artist">Artist:</label>
+                <input type="text" id="artist" name="artist" style="width:168px">
+                <button type="button" id="convert">Convert</button>
+            </div>
+            <div>
+                <label for="url">URL:</label>
+                <input type="text" id="url" style="width:500px">
+            </div>
+        </form>
+        <div id="spotifyURL"></div>
+    </body>
+</html>

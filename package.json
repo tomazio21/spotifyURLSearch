@@ -1,0 +1,17 @@
+{
+  "name": "applemusicurltospotifyurl",
+  "version": "1.0.0",
+  "description": "searches for spotify links for songs",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "request": "^2.83.0"
+  }
+}

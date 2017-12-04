@@ -1,0 +1,1 @@
+Simple html page that lets a user type in an artist name and song name that then searches for a corresponding spotify link to that song, leveraging the spotify search api.
